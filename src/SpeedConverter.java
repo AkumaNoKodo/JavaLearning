@@ -35,7 +35,7 @@ public class SpeedConverter {
         }
 
         public static void printConversion(double kilometersPerHour) {
-                long milesPerHour = SpeedConverter.toMilesPerHour(kilometersPerHour);
+                long milesPerHour = toMilesPerHour(kilometersPerHour);
 
                 System.out.println(
                         milesPerHour == -1 ? "Invalid Value" : kilometersPerHour + " km/h = " + milesPerHour + " mi/h"
